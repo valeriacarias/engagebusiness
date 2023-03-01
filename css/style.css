@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+	--color-hover-menu: #4caf50;
+	--color-verde: #4caf50;
+	--color-titulos: #303030;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #888;
+}
+
+header {
+	background-color: #000000; 
+}
+.navbar-nav .nav-link.btn-primary {
+	background-color: #FFFFFF;
+	color: #222 !important;
+	font-weight: 600px !important;
+	border: 0;
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+.navbar-nav .nav-link.btn-primary:hover{
+	background-color: var(--color-hover-menu);
+	color:#FFFFFF !important;
+}
+#hero{
+	background-image: url("../img/bg-video.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFFFFF;
+}
+#hero h3{
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+}
+#hero h1{
+	font-size: 50px;
+	margin-bottom: 40px;
+	color: #FFFFFF;
+}
+.btn-verde{
+	background-color: var(--color-verde);
+	color: #FFFFFF;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.btn-verde:hover{
+	background-color: #FFFFFF;
+	color: #222;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.50);
+	padding: 15% 0;
+}
+.section{
+	padding: 7% 0;
+}
+h1,h2,h3,h4,h,h6{
+	color: var(--color-titulos);
+}
+#icons i{
+	color: var(--color-verde);
+	font-size: 36px;
+}
+#icons h4{
+	font-size: 20px;
+	font-weight: 400;
+}
+#services{
+	background-color: #f2f2f2;
+}
+.titulo{
+	font-size: 46px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.subtitulo{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 5%;
+}
+
+#services .card{
+	border: 0;
+}
+#services .card-header{
+	padding: 0;
+}
+#services h4{
+	font-size: 18px;
+}
+#services a{
+	font-size: 13px;
+}
+#services a:hover{
+	color: var(--color-titulos);
+	text-decoration: none;
+}
+#services a::after{
+	content: '\f061';
+	font-family: 'Line Awesome Free';
+	font-weight: 600;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
